@@ -213,6 +213,7 @@ img {
     border: 0;
     -ms-interpolation-mode: bicubic;
     vertical-align: middle;
+    resize: inherit;
 }
 /*
  * Correct overflow not hidden in IE9
@@ -1077,3 +1078,6 @@ table td {
     height: 100%;
     text-indent: -9999px;
 }
+
+
+
