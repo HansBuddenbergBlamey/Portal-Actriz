@@ -601,8 +601,8 @@ header h1 {
     margin: 0 auto 0 auto;
     padding: 0;
     background-image: url(../img/logo.png);
-    width: 250px;
-    height: 148px;
+    width: auto;
+    height: auto;
     text-indent: -9999px;
 }
 header h1 a {
