@@ -77,106 +77,14 @@
 
     <div id="main" role="main">
 
-        <div id="carousel">
-            <!--<a href="http://kayserv.kd.io/Portal-Actriz/project/vodafone-red/index.html" class="bar" title="Vodafone RED">
-                <img src="http://kayserv.kd.io/Portal-Actriz/wp-content/uploads/2014/07/banner-website.jpg" alt="Vodafone RED" />
-                <div class="title">
-                    <span class="project-number">01</span>
-                    <h2>Vodafone RED</h2>
-                </div>
-            </a>-->
+        <!-- Load External div content from base file -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#carousel").load("./carousel.html #carousel");
+            });
+        </script>
 
-            <!-- Rocio -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/rocio/index.html" class="bar" title="Rocio">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/rocio/img/carousel.jpg" alt="Rocio" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Rocio</h2>
-                </div>
-            </a>
-
-            <!-- Nihal -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/nihal/index.html" class="bar" title="Nihal">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/nihal/img/carousel.jpg" alt="Nihal" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Nihal</h2>
-                </div>
-            </a>
-
-            <!-- Toph -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/toph/index.html" class="bar" title="Toph">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/toph/img/carousel.jpg" alt="Toph" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Toph</h2>
-                </div>
-            </a>
-
-            <!-- June -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/june/index.html" class="bar" title="June">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/june/img/carousel.jpg" alt="June" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>June</h2>
-                </div>
-            </a>
-
-            <!-- Hara Millo -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/hara_millo/index.html" class="bar" title="Hara Millo">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/hara_millo/img/carousel.jpg" alt="Hara Millo" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Hara Millo</h2>
-                </div>
-            </a>
-
-            <!-- Pennsatucky -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/pennsatucky/index.html" class="bar" title="Pennsatucky">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/pennsatucky/img/carousel.jpg" alt="Pennsatucky" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Pennsatucky</h2>
-                </div>
-            </a>
-
-            <!-- Molly -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/molly/index.html" class="bar" title="Molly">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/molly/img/carousel.jpg" alt="Molly" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Molly</h2>
-                </div>
-            </a>
-
-            <!-- Moze -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/moze/index.html" class="bar" title="Moze">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/moze/img/carousel.jpg" alt="Moze" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Moze</h2>
-                </div>
-            </a>
-
-            <!-- Barry -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/barry/index.html" class="bar" title="Barry">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/barry/img/carousel.jpg" alt="Barry" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Barry</h2>
-                </div>
-            </a>
-
-            <!-- Julius Jr -->
-            <a href="http://kayserv.kd.io/Portal-Actriz/personajes/julius_jr/index.html" class="bar" title="Julius Jr">
-                <img src="http://kayserv.kd.io/Portal-Actriz/personajes/julius_jr/img/carousel.jpg" alt="Julius Jr" />
-                <div class="title">
-                    <span class="project-number"></span>
-                    <h2>Julius Jr</h2>
-                </div>
-            </a>
-
-        </div>
+        <div id="carousel"></div>
 
         <!-- Ventana interna -->
         <div id="project-detail"></div>
