@@ -42,6 +42,13 @@
     <link rel="stylesheet" href="wp-content/themes/woodwork/css/style5e1f.css?v=2">
     <script src="wp-content/themes/woodwork/js/vendor/modernizr-2.5.3.min.js"></script>
 
+    <!-- Load External div content from base file -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#carousel").load("./carousel.html");
+        });
+    </script>
+
 </head>
 
 <body class="home page page-id-6 page-template page-template-carousel-php">
@@ -77,12 +84,7 @@
 
     <div id="main" role="main">
 
-        <!-- Load External div content from base file -->
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $("#carousel").load("./carousel.html");
-            });
-        </script>
+
 
         <div id="carousel"></div>
 
