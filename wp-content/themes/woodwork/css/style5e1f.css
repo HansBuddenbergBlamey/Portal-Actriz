@@ -601,15 +601,15 @@ header #social a span {
 header h1 {
     margin: 0 auto 0 auto;
     padding: 0;
-    background-image: url(../img/logo.png);
+    background-image: url(../../../../media/img/logo.png);
     width: 248px;
     height: 127px;
     text-indent: -9999px;
 }
 header h1 a {
     display: block;
-    width: 148px;
-    height: 150px;
+    width: 248px;
+    height: 127px;
     outline: none;
 }
 header h2 {
