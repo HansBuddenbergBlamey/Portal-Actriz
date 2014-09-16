@@ -213,6 +213,7 @@ img {
     border: 0;
     -ms-interpolation-mode: bicubic;
     vertical-align: middle;
+    resize: inherit;
 }
 /*
  * Correct overflow not hidden in IE9
@@ -601,7 +602,6 @@ header h1 {
     margin: 0 auto 0 auto;
     padding: 0;
     background-image: url(../../../../media/img/logo.png);
-    background-repeat: no-repeat;
     width: 248px;
     height: 127px;
     text-indent: -9999px;
@@ -965,10 +965,10 @@ header nav #nav-pointer div#pointer-right {
     margin: 0 auto 50px auto;
 }
 .grid .picture {
-    width: 500px;
-    height: 280px;
+    width: 300px;
+    height: 400px;
     margin: 0 0 10px 0;
-    background-color: #f7f8f9;
+    /*background-color: #cfcfcf;*/
     overflow: hidden;
 }
 .grid .picture img {
@@ -1078,33 +1078,40 @@ table td {
     height: 100%;
     text-indent: -9999px;
 }
-/* Personalizados*/
+
+
+
+
+#mic {
+    width: 250px;
+    height: 500px;
+    margin: 0 0 10px 0;
+    /*background-color: #cfcfcf;*/
+    overflow: hidden;
+}
+
+#contacten {
+    width: 250px;
+    height: 500px;
+    margin: 0 0 10px 0;
+    /*background-color: #cfcfcf;*/
+    overflow: hidden;
+}
 
 .grid .contacten {
     width: 400px;
     height: 500px;
-    margin: 0 0 50px 0;
-    overflow: visible;
-    float: left;
-    position: absolute;
-    /*left: 30px;
-    top: 80px;*/
-    z-index: 2;
-}
-.contactame {
-    background-image: url(../../../../media/img/Microfono.fw.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-}
-.mic {
-    background-image: url(../../../../media/img/Microfono.fw.png);
-    background-repeat: no-repeat;
-    background-position: right button;
+    position: fixed;
+    margin: 0 0 10px 0;
+    /*background-color: #cfcfcf;*/
     overflow: hidden;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 450px;
-    top: 200px;
-    z-index: 1;
+}
+
+.grid .mic {
+    width: 400px;
+    height: 500px;
+    margin: 0 0 10px 0;
+    /*background-color: #cfcfcf;*/
+    overflow: hidden;
+    position: fixed;
 }
