@@ -600,7 +600,7 @@ header #social a span {
 header h1 {
     margin: 0 auto 0 auto;
     padding: 0;
-    background-image: url(../../../../media/img/logo.png);
+    background-image: url(../../../../images/logo.png);
     background-repeat: no-repeat;
     width: 248px;
     height: 127px;
@@ -1085,11 +1085,8 @@ table td {
     height: 500px;
     margin: 0 0 50px 0;
     overflow: visible;
+    position: fixed;
     float: left;
-    position: absolute;
-    /*left: 30px;
-    top: 80px;*/
-    z-index: 2;
 }
 .contactame {
     background-image: url(../../../../media/img/Microfono.fw.png);
@@ -1097,7 +1094,7 @@ table td {
     background-position: right top;
 }
 .mic {
-    background-image: url(../../../../media/img/Microfono.fw.png);
+    background-image: url(../../../../images/Microfono.fw.png);
     background-repeat: no-repeat;
     background-position: right button;
     overflow: hidden;
@@ -1107,4 +1104,12 @@ table td {
     left: 450px;
     top: 200px;
     z-index: 1;
+}
+._blank {
+    width: 200px;
+    height: 1024px;
+    margin: 0 0 50px 0;
+    overflow: visible;
+    float: left;
+    position: fixed;
 }
