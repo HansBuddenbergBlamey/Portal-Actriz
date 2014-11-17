@@ -1,0 +1,15 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+# Provide Specific Index Page (Set the default handler)
+DirectoryIndex index.html
+RewriteEngine On
+RewriteBase /
+#RewriteRule ^index\.php$ - [L]
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+#RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
