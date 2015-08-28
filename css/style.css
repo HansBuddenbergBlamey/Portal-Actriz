@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'blessed_day';
+    src: url('/fonts/Blessed_Day.eot') format('eot'),
+         url('/fonts/Blessed_Day.ttf') format('truetype'),
+         url('/fonts/Blessed_Day.woff') format('woff'),
+         url('/fonts/Blessed_Day.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'hypatiasanspro';
+    src: url('/fonts/hypatiasanspro-regular-webfont.eot') format('eot'),
+         url('/fonts/hypatiasanspro-regular-webfont.ttf') format('truetype'),
+         url('/fonts/hypatiasanspro-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'hypatiasanspro';
+    src: url('/fonts/hypatiasanspro-bold-webfont41d.eot') format('eot'),
+         url('/fonts/hypatiasanspro-bold-webfont.ttf') format('truetype'),
+         url('/fonts/hypatiasanspro-bold-webfont.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'universltstd';
+    src: url('/fonts/universltstd-cn-webfont41d.eot') format('eot'),
+         url('/fonts/universltstd-cn-webfont.ttf') format('truetype'),
+         url('/fonts/universltstd-cn-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'universltstd';
+    src: url('/fonts/universltstd-lightcn-webfont41d.eot') format('eot'),
+         url('/fonts/universltstd-lightcn-webfont.ttf') format('truetype'),
+         url('/fonts/universltstd-lightcn-webfont.woff') format('woff');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'GreatVibes-Regular';
+    src: url('/fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+header nav ul ul li a {
+    display: inline-block;
+    padding: 0.1rem 10px;
+    font-family: 'blessed_day';
+    font-weight: normal;
+    font-size: 2rem;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    color: #b5b5b5;
+    outline: none;
+}
